@@ -1,7 +1,8 @@
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
-    <router-link to="/XFcase">XFcase</router-link>
+    <router-link to="/XFcase">XFcase</router-link>|
+    <router-link to="/InsCase">InsCase</router-link>
   </nav>
   <router-view/>
 </template>

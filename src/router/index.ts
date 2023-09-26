@@ -11,6 +11,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/XFcase',
     name:'XFcase',
     component:()=>import('../views/XFplayView.vue')
+  },
+  {
+    path:'/insCase',
+    name:'inCase',
+    component:()=>import('../views/InstanceDView.vue')
   }
 ]
 
